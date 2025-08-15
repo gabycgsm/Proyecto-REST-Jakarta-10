@@ -33,6 +33,7 @@ public class ClienteResource {
     private ClienteBeanRemoto clienteBean;
 
     @POST
+    @Secured
     public void agregarCliente(Clientes cliente) {
         clienteBean.agregarCliente(cliente);
     }
