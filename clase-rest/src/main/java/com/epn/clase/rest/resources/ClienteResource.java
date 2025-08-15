@@ -6,6 +6,7 @@ package com.epn.clase.rest.resources;
 
 import com.epn.clase.ejb.remoto.ClienteBeanRemoto;
 import com.epn.clase.jpa.Clientes;
+import com.epn.clase.rest.Secured;
 import jakarta.ejb.EJB;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.ws.rs.Consumes;
@@ -37,6 +38,7 @@ public class ClienteResource {
     }
 
     @GET
+    @Secured
     public List<Clientes> obtenerClientes() {
         return clienteBean.obtenerClientes();
     }
