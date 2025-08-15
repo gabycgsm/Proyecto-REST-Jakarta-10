@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.epn</groupId>
+    <artifactId>clase-ear</artifactId>
+    <version>1.0</version>
+    <packaging>ear</packaging>
+    <name>clase-ear-1.0</name>
+    
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    
+    <dependencies>
+        <!-- EJB -->
+        <dependency>
+            <groupId>com.epn</groupId>
+            <artifactId>clase-ejb</artifactId>
+            <version>${project.version}</version>
+            <type>ejb</type>
+        </dependency>
+        
+        <!-- JPA -->
+        <dependency>
+            <groupId>com.epn</groupId>
+            <artifactId>clase-jpa</artifactId>
+            <version>${project.version}</version>
+            <type>jar</type>
+        </dependency>
+        
+        <!-- REST -->
+        <dependency>
+            <groupId>com.epn</groupId>
+            <artifactId>clase-rest</artifactId>
+            <version>${project.version}</version>
+            <type>war</type> 
+        </dependency>
+        
+        <!-- WEB 
+        <dependency>
+            <groupId>com.ejemplo</groupId>
+            <artifactId>clientes-jsf</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type> 
+        </dependency>-->
+        
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    
+                    <modules>
+                        <ejbModule>
+                            <groupId>com.epn</groupId>
+                            <artifactId>clase-ejb</artifactId>
+                        </ejbModule>
+                        <jarModule>
+                            <groupId>com.epn</groupId>
+                            <artifactId>clase-jpa</artifactId>
+                        </jarModule>
+                        <webModule>
+                            <groupId>com.epn</groupId>
+                            <artifactId>clase-rest</artifactId>
+                            <contextRoot>/clase-rest</contextRoot>
+                        </webModule>
+                        <!--
+                        <webModule>
+                            <groupId>com.ejemplo</groupId>
+                            <artifactId>clientes-jsf</artifactId>
+                            <contextRoot>/clientes-jsf</contextRoot>
+                        </webModule> -->
+                        
+                    </modules>                    
+                </configuration>
+            </plugin>            
+        </plugins>
+    </build>
+</project>
