@@ -1,3 +1,5 @@
+com\epn\clase\ejb\ContactoBean.class
 com\epn\clase\ejb\local\ClienteBeanLocal.class
 com\epn\clase\ejb\remoto\ClienteBeanRemoto.class
+com\epn\clase\ejb\remoto\ContactoBeanRemoto.class
 com\epn\clase\ejb\ClienteBean.class

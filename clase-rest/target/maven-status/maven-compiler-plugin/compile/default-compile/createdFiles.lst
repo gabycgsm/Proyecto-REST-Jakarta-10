@@ -1,2 +1,8 @@
+com\epn\clase\rest\Secured.class
+com\epn\clase\rest\JwtUtil\JwtUtil.class
 com\epn\clase\rest\resources\ClienteResource.class
+com\epn\clase\rest\JwtFilter.class
+com\epn\clase\rest\resources\AuthResource.class
+com\epn\clase\rest\dto\Credenciales.class
 com\epn\clase\rest\ApplicationConfig.class
+com\epn\clase\rest\dto\TokenResponse.class

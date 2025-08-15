@@ -1,2 +1,8 @@
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\Secured.java
 C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\resources\ClienteResource.java
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\JwtUtil\JwtUtil.java
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\JwtFilter.java
 C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\ApplicationConfig.java
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\dto\Credenciales.java
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\dto\TokenResponse.java
+C:\ProyectosJava\REST\clase-rest\src\main\java\com\epn\clase\rest\resources\AuthResource.java
