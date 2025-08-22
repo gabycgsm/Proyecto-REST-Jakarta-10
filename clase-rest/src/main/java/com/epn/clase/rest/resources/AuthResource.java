@@ -26,7 +26,7 @@ public class AuthResource {
     private static final String SECRET_KEY = "ClaveSuperSecretaParaFirmarJWT";
 
     @POST
-    @Path("/login")
+    @Path("/login")    
     public Response login(Credenciales cred) {
         // Validar usuario (aquí puedes consultar la BD vía EJB)
         if ("admin".equals(cred.getUsuario()) && "1234".equals(cred.getPassword())) {

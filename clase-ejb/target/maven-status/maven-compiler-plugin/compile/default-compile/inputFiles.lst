@@ -1,5 +1,9 @@
 C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\ClienteBean.java
 C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\ContactoBean.java
 C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\local\ClienteBeanLocal.java
+C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\local\TareaBeanLocal.java
+C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\local\UsuarioBeanLocal.java
 C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\remoto\ClienteBeanRemoto.java
 C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\remoto\ContactoBeanRemoto.java
+C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\TareaBean.java
+C:\ProyectosJava\REST\clase-ejb\src\main\java\com\epn\clase\ejb\UsuarioBean.java

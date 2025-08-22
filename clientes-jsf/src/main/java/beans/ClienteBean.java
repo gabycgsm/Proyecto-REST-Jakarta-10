@@ -5,6 +5,7 @@ import com.epn.clase.jpa.Clientes;
 import jakarta.annotation.PostConstruct;
 import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
+import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import modelo.Cliente;
 import java.io.Serializable;
@@ -15,7 +16,7 @@ import java.util.List;
 @SessionScoped
 public class ClienteBean implements Serializable {
     
-    @EJB
+    @Inject
     private ClienteBeanLocal clienteLocal;
 
     private List<Clientes> clientes = new ArrayList<>();

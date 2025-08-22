@@ -1,0 +1,4 @@
+com\epn\websocket\ChatEndpoint.class
+com\epn\websocket\JakartaRestConfiguration.class
+com\epn\websocket\NotificationRest.class
+LoginServlet.class

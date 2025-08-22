@@ -4,6 +4,8 @@
     <jta-data-source>jdbc/cliente</jta-data-source>
     <class>com.epn.clase.jpa.Clientes</class>
     <class>com.epn.clase.jpa.Contactos</class>
+    <class>com.epn.clase.jpa.Usuarios</class>
+    <class>com.epn.clase.jpa.Tareas</class>
     <properties>
       <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
     </properties>

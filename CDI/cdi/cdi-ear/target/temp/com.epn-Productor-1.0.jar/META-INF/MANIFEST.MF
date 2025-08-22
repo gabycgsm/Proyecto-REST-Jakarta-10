@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Created-By: Maven EJB Plugin 3.2.1
+Build-Jdk-Spec: 11
+Class-Path: lib/jakarta.platform-jakarta.jakartaee-api-10.0.0.jar lib/ja
+ karta.platform-jakarta.jakartaee-web-api-10.0.0.jar lib/jakarta.servlet
+ -jakarta.servlet-api-6.0.0.jar lib/jakarta.servlet.jsp-jakarta.servlet.
+ jsp-api-3.1.0.jar lib/jakarta.servlet.jsp.jstl-jakarta.servlet.jsp.jstl
+ -api-3.0.0.jar lib/jakarta.faces-jakarta.faces-api-4.0.1.jar lib/jakart
+ a.ws.rs-jakarta.ws.rs-api-3.1.0.jar lib/jakarta.websocket-jakarta.webso
+ cket-api-2.1.0.jar lib/jakarta.websocket-jakarta.websocket-client-api-2
+ .1.0.jar lib/jakarta.json-jakarta.json-api-2.1.0.jar lib/jakarta.json.b
+ ind-jakarta.json.bind-api-3.0.0.jar lib/jakarta.ejb-jakarta.ejb-api-4.0
+ .1.jar lib/jakarta.transaction-jakarta.transaction-api-2.0.1.jar lib/ja
+ karta.persistence-jakarta.persistence-api-3.1.0.jar lib/jakarta.validat
+ ion-jakarta.validation-api-3.0.2.jar lib/jakarta.authentication-jakarta
+ .authentication-api-3.0.0.jar lib/jakarta.security.enterprise-jakarta.s
+ ecurity.enterprise-api-3.0.0.jar lib/jakarta.jms-jakarta.jms-api-3.1.0.
+ jar lib/jakarta.activation-jakarta.activation-api-2.1.0.jar lib/jakarta
+ .mail-jakarta.mail-api-2.1.0.jar lib/jakarta.resource-jakarta.resource-
+ api-2.1.0.jar lib/jakarta.authorization-jakarta.authorization-api-2.1.0
+ .jar lib/jakarta.batch-jakarta.batch-api-2.1.1.jar lib/jakarta.enterpri
+ se-jakarta.enterprise.cdi-api-4.0.1.jar lib/jakarta.enterprise-jakarta.
+ enterprise.lang-model-4.0.1.jar lib/jakarta.annotation-jakarta.annotati
+ on-api-2.1.0.jar lib/jakarta.el-jakarta.el-api-5.0.0.jar lib/jakarta.in
+ terceptor-jakarta.interceptor-api-2.1.0.jar lib/jakarta.inject-jakarta.
+ inject-api-2.0.1.jar
+

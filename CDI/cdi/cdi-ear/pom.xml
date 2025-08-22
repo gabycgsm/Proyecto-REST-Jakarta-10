@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.epn</groupId>
+    <artifactId>cdi-ear</artifactId>
+    <version>1.0</version>
+    <packaging>ear</packaging>
+    <name>cdi-ear-1.0</name>
+    
+     <dependencies>
+        <!-- EJB -->
+        <dependency>
+            <groupId>com.epn</groupId>
+            <artifactId>Consumidor</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>
+        
+         <!-- EJB -->
+        <dependency>
+            <groupId>com.epn</groupId>
+            <artifactId>Productor</artifactId>
+            <version>1.0</version>
+            <type>ejb</type>
+        </dependency>
+        
+    </dependencies>
+    
+  
+
+    <build>
+        <plugins>
+            <!-- Plugin para empaquetar EAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <modules>
+                        <ejbModule>
+                            <groupId>com.epn</groupId>
+                            <artifactId>Productor</artifactId>
+                        </ejbModule>
+                        
+                         <ejbModule>
+                            <groupId>com.epn</groupId>
+                            <artifactId>Consumidor</artifactId>
+                        </ejbModule>
+                       
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

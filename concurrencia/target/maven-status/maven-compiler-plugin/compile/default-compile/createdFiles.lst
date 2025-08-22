@@ -1,0 +1,4 @@
+com\epn\concurrencia\ServicioManaged.class
+com\epn\concurrencia\Concurrencia.class
+com\epn\concurrencia\ServicioScheduler.class
+com\epn\concurrencia\ServicioNativo.class

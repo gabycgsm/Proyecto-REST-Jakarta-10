@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chat WebSocket con Jakarta</title>
+</head>
+<body>
+    <h2>Chat con Jakarta WebSocket</h2>
+    
+    
+    <!--<label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" placeholder="Ingresa usuario">
+
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" placeholder="Ingresa clave">
+        <button id="btnLogin" onclick="validarLogin()">Validar Credenciales</button>
+        <br><br>-->
+
+        <input  type="text" id="msg" placeholder="Escribe un mensaje..." >
+        <button onclick="enviar()" >Enviar</button>
+
+
+    <ul id="mensajes"></ul>
+
+    <script>
+            const ws = new WebSocket("ws://localhost:8081/WebSocket-1.0/chat");
+
+        ws.onmessage = (event) => {
+            const li = document.createElement("li");
+            li.textContent = event.data;
+            document.getElementById("mensajes").appendChild(li);
+        };
+
+        function enviar() {
+            const msg = document.getElementById("msg").value;
+            ws.send(msg);
+            document.getElementById("msg").value = "";
+        }
+        
+
+    </script>
+        
+</body>
+</html>

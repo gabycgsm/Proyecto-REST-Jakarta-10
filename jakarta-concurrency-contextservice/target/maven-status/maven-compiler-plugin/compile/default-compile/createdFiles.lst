@@ -1,0 +1,5 @@
+com\ricardo\async\config\AppConfig.class
+com\ricardo\async\boundary\PedidoResource.class
+com\ricardo\async\control\PedidoDAO.class
+com\ricardo\async\control\PedidoAsyncService.class
+com\ricardo\async\entity\Pedido.class
